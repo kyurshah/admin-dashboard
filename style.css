@@ -13,6 +13,20 @@ body {
     grid-template-rows: 1fr 5fr;
 }
 
+img {
+    height: 30px;
+    color: white;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 5px;
+    color: white;
+}
+
 /* SIDEBAR */
 
 .sidebar {
@@ -20,7 +34,21 @@ body {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
-    background-color: lightblue;
+    background-color: rgb(86, 122, 219);
+    font-size: 18px;
+}
+
+.sidebar-one {
+    margin-bottom: 100px;
+}
+
+.sidebar-one h1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 5px;
+    color: white;
+    justify-content: center;
 }
 
 
@@ -41,8 +69,6 @@ body {
     gap: 10px;
 
 }
-
-
 
 .header-one input {
     width: 80%;
@@ -77,12 +103,15 @@ body {
 }
 
 .header-four button {
-    width: 90px;
-    height: 30px;
-    background-color: rgb(81, 245, 245);
-    border: rgb(81, 245, 245) 2px solid;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(86, 122, 219);
+    border: rgb(86, 122, 219) 2px solid;
     border-radius: 30px;
-
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 2px;
 }
 
 
@@ -140,13 +169,7 @@ body {
     background-color: lightgrey;
 }
 
-img {
-    height: 30px;
-}
 
-li {
-    list-style: none;
-}
 
 /* ANNOUNCEMENTS */
 .announcements-container {
@@ -181,3 +204,8 @@ li {
    border-radius: 10px;
 }
 
+.exp-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
